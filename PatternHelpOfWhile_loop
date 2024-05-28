@@ -6,6 +6,7 @@ public class patternQuestionWhile_loop {
         System.out.print(" Enter Digit:- ");
         int n=sc.nextInt();
 
+         //Pattern Question 1
         /* using for loop
         1	2	3
         1	2	3
@@ -33,7 +34,7 @@ public class patternQuestionWhile_loop {
         */
 
 
-         //Question
+         //Question 2
         /*
         3 2 1
         3 2 1
@@ -68,7 +69,7 @@ public class patternQuestionWhile_loop {
 
 
 
-        //Pattern Question
+        //Pattern Question 3
       /*
         3 // input
         123
@@ -106,7 +107,7 @@ public class patternQuestionWhile_loop {
 
 
 
-       // Pattern Question
+       // Pattern Question:-4
      /*
         3 // input
         1
@@ -128,7 +129,7 @@ public class patternQuestionWhile_loop {
         }
       */
 
-        // Pattern Question
+        // Pattern Question:-5
        /*
         4 // input
         1
@@ -149,7 +150,7 @@ public class patternQuestionWhile_loop {
             i++;
         }
      */
-        // Pattern Question
+        // Pattern Question:-6
         /* Enter Digit:- 4
         1
         2 3
@@ -172,7 +173,7 @@ public class patternQuestionWhile_loop {
          */
 
       /*
-      Pattern Question
+      Pattern Question:-7
        Enter Digit:- 3
         1
         2 1
@@ -192,7 +193,7 @@ public class patternQuestionWhile_loop {
         }
        */
 
-        //Pattern Question
+        //Pattern Question:-8
      /*
 //        Enter Digit:- 4
 //        A A A A
@@ -215,7 +216,7 @@ public class patternQuestionWhile_loop {
       */
 
 
-    /*    // pattern Question
+    /*    // pattern Question:-9
 //        Enter Digit:- 3
 //        A  B  C
 //        A  B  C
@@ -236,3 +237,335 @@ public class patternQuestionWhile_loop {
 
 }
 */
+
+  /*    // Pattern Question:-10
+//        Enter Digit:- 4
+//        A B C D
+//        E F G H
+//        I J K L
+//        M N O P
+
+        char currentChar = 'A'; // Start with character 'A'
+        int row = 1; // Initialize row counter
+
+        while (row <= n) { // Loop for each row
+            int col = 1; // Initialize column counter
+            while (col <= n) { // Loop for each column
+                System.out.print(currentChar + " "); // Print the current character
+                currentChar++; // Move to the next character
+                col++; // Increment column counter
+            }
+            System.out.println(); // Move to the next line after printing each row
+            row++; // Increment row counter
+        }
+
+     */
+
+         //Pattern Question:-11
+        /*
+//        Enter Digit:- 4
+//        A B C D
+//        B C D E
+//        C D E F
+//        D E F G
+
+        int row=1;
+        while(row<=n){
+            int colum=1;
+            int val=row;
+            while(colum<=n){
+                char ch=(char)('A'+val-1);
+                System.out.print(ch+" ");
+                val++;
+                colum++;
+            }
+            System.out.println();
+            row++;
+        }
+         */
+
+        // Pattern Question:-12
+//        Enter Digit:- 4
+//        A
+//        B B
+//        C C C
+//        D D D D
+    /*    int i=1;
+        while(i<=n) {
+            int j = 1;
+            while (j <= i) {
+                char ch = (char) ('A' + i - 1);
+                    System.out.print(ch + " ");
+                    j++;
+                }
+                System.out.println();
+                i++;
+        }
+
+     */
+
+        //Pattern Question:-13
+//        Enter Digit:- 4
+//        A
+//        B C
+//        D E F
+//        G H I J
+
+     /*   char ch='A';
+        int i=1;
+        while(i<=n){
+            int j=1;
+            while(j<=i){
+                System.out.print(ch+" ");
+                ch++;
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
+
+      */
+
+        //Pattern Question:-14
+//        Enter Digit:- 4
+//        A
+//        B C
+//        C D E
+//        D E F G
+
+     /*   int i=1;
+        while(i<=n) {
+            int j = 1;
+            int val=i;
+            while (j <= i) {
+                char ch=(char)('A'+val-1);
+                    System.out.print(ch+" ");
+                    val++;
+                    j++;
+                }
+                i++;
+                System.out.println();
+            }
+
+      */
+
+        // Pattern Question:-15
+//        Enter Digit:- 4
+//        D
+//        C D
+//        B C D
+//        A B C D
+
+  /*      int row=1;
+     while(row<=n){
+         int colum=1;
+         char start= (char)('A'+n-row);// use this Formula (A+n-row)
+         while(colum<=row){
+             System.out.print(start+" ");
+             start++;
+             colum++;
+         }
+         System.out.println();
+         row++;
+      }
+
+   */
+
+        // Pattern Question:-16
+        //H-W
+//        Enter Digit:- 3
+//        A B C
+//        B C D
+//        C D E
+
+     /*   int row=1;
+        while(row<=n){
+            int colum=1;
+            int val=row;
+            while(colum<=n){
+                char ch= (char)('A'+val-1);
+                System.out.print(ch+" ");
+                val++;
+                colum++;
+            }
+            System.out.println();
+            row++;
+        }
+      */
+
+        // Patter Question:-17
+  // Enter Digit:- 4
+// *	*	*	*
+//*	*	*
+//*	*
+//*
+
+        // Using For Loop
+       /*  for(int i=1; i<=n; i++){
+             for(int j=n; j>=i; j--){
+                 System.out.print("*");
+             }
+             System.out.println();
+         } */
+
+        // using while loop
+      /*  int i=1;
+        while(i<=n){
+            int j=n;
+            while(j>=i){
+                System.out.print("*\t");
+                j--;
+            }
+            System.out.println();
+            i++;
+        }
+
+       */
+
+        //Pattern Question:-18
+//        Enter Digit:- 4
+//                ****
+//                 ***
+//                  **
+//                   *
+
+      /*  int i=0;
+        while(i< n){
+            int j=0;
+            while(j< i){
+                System.out.print(" ");
+                j++;
+            }
+            int k=0;
+            while(j< n-k){
+                System.out.print("*");
+                k++;
+            }
+            System.out.println();
+            i++;
+        }
+       */
+
+
+        // Pattern Question:-19
+        // Outer loop for rows
+//        1111
+//        222
+//        33
+//        4
+
+     /*   int i = 1;
+        while (i <= n) {
+            int j = 1;
+            // Inner loop for spaces
+            while (j <= i) {
+                System.out.print(" ");
+                j++;
+            }
+
+            int k = 1;
+            // Inner loop for numbers
+            while (k <= n - i + 1) { // similar to above code but row print
+                System.out.print(i);
+                k++;
+            }
+
+            System.out.println(); // Move to the next line
+            i++;
+        }
+      */
+
+       //Pattern Question:-20
+
+//        Enter Digit:- 4
+//                *
+//               **
+//              ***
+//             ****
+
+     /*  int i=1;
+       while (i<=n){
+           int space=1;    // Inner loop for space
+           while(space<=n-i){
+               System.out.print(" ");
+               space++;
+           }
+           int star=1;    // Inner loop for stars
+           while(star<=i){
+               System.out.print("*");
+               star++;
+           }
+           System.out.println(); // Move to the next line
+           i++;
+       }
+
+      */
+
+        // Pattern Question:-21
+//        Enter Digit:- 4
+//        1
+//        22
+//        333
+//        4444
+
+       /* int i=1;
+        while(i<=n){
+            int j=1;
+            while(j<=n-i){
+                System.out.print(" ");
+                j++;
+            }
+            int num=1;
+            while(num<=i){
+                System.out.print(i);
+                num++;
+            }
+            System.out.println();
+            i++;
+        }
+        */
+
+           // Patter Question:-22
+//        1
+//        121
+//        12321
+//        1234321
+
+       /* public class Main {
+            public static void main(String[] args) {
+                int rows = 4; // Number of rows
+
+                // Outer loop for rows
+                int i = 1;
+                while (i <= rows) {
+                    int spaces = 1;
+                    // Inner loop for spaces
+                    while (spaces <= rows - i) {
+                        System.out.print(" ");
+                        spaces++;
+                    }
+
+                    int j = 1;
+                    // Inner loop for numbers increasing from 1 to i
+                    while (j <= i) {
+                        System.out.print(j);
+                        j++;
+                    }
+
+                    j = i - 1;
+                    // Inner loop for numbers decreasing from i-1 to 1
+                    while (j >= 1) {
+                        System.out.print(j);
+                        j--;
+                    }
+
+                    System.out.println(); // Move to the next line
+                    i++;
+                }
+            }
+        }
+
+        */
+
+
+
