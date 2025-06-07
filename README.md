@@ -1,2 +1,2 @@
 # PatternQuestionWhile_loop
-Java Code For Pattern Question lover..
+Java Code For Pattern Question lover
